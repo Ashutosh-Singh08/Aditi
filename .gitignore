@@ -1,0 +1,11 @@
+node_modules
+.env
+audio
+venv
+__pycache__
+dist
+build
+aiBackend/models/aditi-final
+aiBackend/vosk-model-en-us-0.22-lgraph/
+aiBackend/uploads/
+aiBackend/models/final_model

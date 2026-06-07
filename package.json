@@ -1,0 +1,14 @@
+{
+  "name": "aditi",
+  "version": "1.0.0",
+  "main": "electron/main.js",
+  "scripts": {
+  "frontend": "cd aiFrontend && npm run dev -- --host 127.0.0.1",
+  "electron": "wait-on http://127.0.0.1:5173 http://127.0.0.1:4000 && electron ."
+},
+  "devDependencies": {
+    "concurrently": "^10.0.3",
+    "electron": "^42.3.2",
+    "wait-on": "^9.0.10"
+  }
+}
